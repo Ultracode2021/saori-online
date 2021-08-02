@@ -1,0 +1,9 @@
+<h1>Indicators</h1>
+<ul>
+  <% @indicators.each do |indicator| %>
+    <li>
+      <%= indicator.title %>
+      <%= indicator.body %>
+    </li>
+  <% end %>
+</ul>
