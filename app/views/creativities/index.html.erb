@@ -1,9 +1,13 @@
-<h1>Creativities</h1>
-<ul>
-  <% @creativities.each do |creativity| %>
-    <li>
-      <%= creativity.title %>
-      <%= creativity.body %>
-    </li>
-  <% end %>
-</ul>
+<body>
+  <div class="preloader">
+    <h1>Clases de arte</h1>
+      <ul>
+        <% @creativities.each do |creativity| %>
+          <li>
+            <%= creativity.title %>
+            <%= creativity.body %>
+          </li>
+        <% end %>
+      </ul>
+  </div>
+</body>
