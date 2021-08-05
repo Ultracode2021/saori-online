@@ -1,0 +1,2 @@
+class Creativity < ApplicationRecord
+end

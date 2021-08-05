@@ -1,0 +1,9 @@
+<h1>Creativities</h1>
+<ul>
+  <% @creativities.each do |creativity| %>
+    <li>
+      <%= creativity.title %>
+      <%= creativity.body %>
+    </li>
+  <% end %>
+</ul>
